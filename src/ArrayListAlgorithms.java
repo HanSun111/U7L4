@@ -84,7 +84,7 @@ public class ArrayListAlgorithms {
                 smallest = intList.get(i);
             }
         }
-        return ;
+        return intList.indexOf(smallest);
     }
 
 }
